@@ -1,0 +1,76 @@
+:root {
+    --oneColor: hsl(158, 36%, 37%);
+    --twoColor: hsl(30, 38%, 92%);
+    --oneneutralColor: hsl(212, 21%, 14%);
+    --twoneutralColor: hsl(228, 12%, 48%);
+    --threeneutralColor: hsl(0, 0%, 100%);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap');
+body {
+    background-color: var(--twoColor);
+}
+p {
+    font-size: 14px;
+    color: #87868e;
+    margin-left: 10px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: var(--threeneutralColor);
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 10px;
+    color: #87868e;
+    margin-left: 10px;  
+}
+
+.title_one {
+    font-family: "fraunces", sans-serif;
+    font-size: 28px;
+    font-weight: 700; 
+}
+
+.main-price {
+    font-family: "montserrat", sans-serif;
+    color: #3d8168;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.carte {
+    background-color: #3d8168;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.second-price {
+    text-decoration: line-through;
+}
+
+img {
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.icon-cart {
+    width: 10px;
+}
